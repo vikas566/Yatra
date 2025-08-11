@@ -1,0 +1,36 @@
+{
+  "name": "cultural-planner",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && firebase deploy",
+    "generate-pwa-assets": "pwa-assets-generator"
+  },
+  "dependencies": {
+    "@browsermt/bergamot-translator": "^0.4.9",
+    "@headlessui/vue": "^1.7.0",
+    "@heroicons/vue": "^2.0.0",
+    "@vueuse/core": "^10.5.0",
+    "axios": "^1.8.1",
+    "firebase": "^11.4.0",
+    "leaflet": "^1.9.4",
+    "pinia": "^2.1.0",
+    "register-service-worker": "^1.7.2",
+    "tailwindcss": "^3.3.0",
+    "vue": "^3.3.0",
+    "vue-i18n": "^11.0.0-rc.1",
+    "vue-router": "^4.2.0",
+    "workbox-window": "^7.0.0"
+  },
+  "devDependencies": {
+    "@vite-pwa/assets-generator": "^0.2.3",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "vite": "^5.0.0",
+    "vite-plugin-pwa": "^0.17.4"
+  }
+}
